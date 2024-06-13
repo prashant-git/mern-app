@@ -2,9 +2,9 @@
   "name": "mern-app",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts":  {
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+  "scripts": {
+    "start": "node api/items.js",
+    "vercel-build": "npm install && cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
